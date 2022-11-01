@@ -1,0 +1,19 @@
+@import "../../common/colors.scss";
+
+.footer {
+  background: $secondary-color;
+  color: $font-primary;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  div:first-child {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer {
+    display: block;
+    text-align: center;
+  }
+}
